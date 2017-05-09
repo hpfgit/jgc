@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta charset="utf-8">
+    <title>中国领先的网站建设服务商，专注建网站、网站制作、做网站、建站、网站设计、网页设计、网页制作领域! </title>
+    <meta id="description" name="description" content="网站建设,专注做网站,领先的建站品牌,承接网站建设,网站制作">
+    <meta id="keywords" name="keywords" content="腾云建站,网站建设,网站制作,网站设计,网页设计,网页制作,建站,建网站,做网站">
+    <meta name="viewport" content="width=1220">
+    <script charset="utf-8" src="js/b.js"></script>
+    <script src="js/jquery-1.6.min.js" type="text/javascript"></script>
+    <script src="js/jquery.blockui.js" type="text/javascript"></script>
+    <script src="js/jquery.superslide.js" type="text/javascript"></script>
+    <script src="js/indexbrowser.js" type="text/javascript"></script>
+    <script src="js/myjs.js" type="text/javascript"></script>
+    <script src="js/topliuyan.js" type="text/javascript"></script>
+    <script src="js/pc_nb.js" type="text/javascript"></script>
+    <script src="js/main.js" charset="utf-8"></script>
+    <script type="text/javascript" src="poll" charset="utf-8"></script>
+    <link media="all" href="css/ind.css" type="text/css" rel="stylesheet">
+</head>
+<body style="background: transparent url('images/bg.gif') no-repeat scroll 0px -100px;">
+<!--head头部开始-->
+<div class="header">
+    <script type="text/javascript">
+        function AddFavorite(sURL, sTitle) {
+            try {
+                window.external.addFavorite(sURL, sTitle);
+            }
+            catch (e) {
+                try {
+                    window.sidebar.addPanel(sTitle, sURL, "");
+                }
+                catch (e) {
+                    alert("您使用的浏览器不支持此功能，请按“Ctrl+D”键手工加入收藏");
+                }
+            }
+        }
+    </script>
+    <div class="top_01">
+        <div class="wapper">
+            <strong class="shoucang"><a style="cursor: pointer">收藏耀腾建站</a></strong>
+            <strong class="weixin"><a href="javascript:void(0)">关注微信</a><div class="con"><img src="images/weixin_02.gif"><b>扫码关注<br>耀腾不仅仅是建站</b></div></strong>
+            <span>腾云建站：中国网站建设领先品牌</span><span style="color: rgb(187, 187, 187);">|</span>
+            <span><a href="#">会员中心</a></span>
+            <span><a href="#">登陆</a></span>
+            <span style="color: rgb(187, 187, 187);">|</span>
+            <span><a href="">免费注册</a></span>
+            <span>还不是会员？</span>
+        </div>
+    </div>
+    <div class="top_02 wapper">
+        <div class="top_2_left">
+            <a href="" title="耀腾建站"><img title="耀腾建站" src="images/logo.png"></a>
+        </div>
+        <div class="top_2_center">
+            <div class="top_2_seach">
+                <input class="inputSeach" x-webkit-speech="" name="SeachKeyWord" id="SeachKeyWord" placeholder="输入行业简称，找模板，如：机械" onkeydown="enter();" maxlength="16" value="" type="text" lang="zh-CN">
+                <input class="btnSeach" value="搜 索" name="SearchButton" id="SearchButton" onclick="dosearch();" type="button">
+                <script type="text/javascript" language="javascript">
+                    function enter() {
+                        if (event.keyCode == 13) {
+                            event.returnValue = false;
+                            switch (document.activeElement.id) {
+                                case "SeachKeyWord":
+                                    document.getElementById('SearchButton').click();
+                                    break;
+                            }
+                        }
+                    }
+                    function dosearch() {
+                        var c = document.getElementById("SeachKeyWord");
+                        if (c.value == '') {
+                            c.focus();
+                            return false;
+                        }
+                        else {
+                            window.location.href = "http://www.400301.com/template/0/search/i.htm?k=" + escape(c.value);
+                        }
+                    }
+                    $(function () {
+                        $(".top_3_left h2").hover(
+                                function () {
+                                    $(this).css("text-decoration", "underline");
+                                    $(this).css("color", "#ffd");
+                                },
+                                function () {
+                                    $(this).css("text-decoration", "none");
+                                    $(this).css("color", "#fff");
+                                }
+                        )
+                    })
+                </script>
+            </div>
+            <div class="top_02_re">
+                <a href="" title="五金">五金</a>
+                <a href="" title="家居家纺">家居家纺</a>
+                <a href="" title="机械设备">机械设备</a>
+                <a href="" title="教育培训">教育培训</a>
+                <a href="" title="建筑建材">建筑建材</a>
+                <a href="" title="文化传媒">文化传媒</a>
+            </div>
+        </div>
+        <div class="tel">
+            <strong><a href="">XXX-XXXXXXX</a></strong>
+            <span>XXX-XXXXXXX</span>
+        </div>
+    </div>
+    <div class="top_03">
+        <div style="height: 40px; position: relative; width: 100%;">
+            <div class="wapper">
+                <div class="top_3_left">
+                    <h2 onclick="javascript:window.open('http://www.400301.com/template.htm', '_self');"
+                        style="cursor: pointer;" title="点击查看所有模板">
+                        所有行业分类</h2>
+                    <div class="side" style="display: block;">
+
+                        <div class="side_list">
+                            <h3 class="dao_01">
+                                <a title="五金、设备、工业制品" href="http://www.400301.com/template/5/0/list.htm">五金、设备、工业制品</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="五金、设备、工业制品" href="http://www.400301.com/template/5/0/list.htm">五金、设备、工业制品</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="五金" href="http://www.400301.com/template/120/0/list.htm">五金</a>
+                                        <a title="门窗照明" href="http://www.400301.com/template/121/0/list.htm">门窗照明</a>
+                                        <a title="汽车汽配" href="http://www.400301.com/template/122/0/list.htm">汽车汽配</a>
+                                        <a title="电子电工" href="http://www.400301.com/template/123/0/list.htm">电子电工</a>
+                                        <a title="机械设备" href="http://www.400301.com/template/124/0/list.htm">机械设备</a>
+                                        <a title="仪器器材" href="http://www.400301.com/template/125/0/list.htm">仪器器材</a>
+                                        <a title="安防监控" href="http://www.400301.com/template/126/0/list.htm">安防监控</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_02">
+                                <a title="化工、原材料、农畜牧" href="http://www.400301.com/template/24/0/list.htm">化工、原材料、农畜牧</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="化工、原材料、农畜牧" href="http://www.400301.com/template/24/0/list.htm">化工、原材料、农畜牧</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="建筑建材" href="http://www.400301.com/template/114/0/list.htm">建筑建材</a>
+                                        <a title="纺织辅料" href="http://www.400301.com/template/115/0/list.htm">纺织辅料</a>
+                                        <a title="化工涂料" href="http://www.400301.com/template/116/0/list.htm">化工涂料</a>
+                                        <a title="橡胶塑料" href="http://www.400301.com/template/117/0/list.htm">橡胶塑料</a>
+                                        <a title="环保回收" href="http://www.400301.com/template/118/0/list.htm">环保回收</a>
+                                        <a title="农业畜牧" href="http://www.400301.com/template/119/0/list.htm">农业畜牧</a>
+                                        <a title="生物科技" href="http://www.400301.com/template/136/0/list.htm">生物科技</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_03">
+                                <a title="服装、饰品、个人护理" href="http://www.400301.com/template/6/0/list.htm">服装、饰品、个人护理</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="服装、饰品、个人护理" href="http://www.400301.com/template/6/0/list.htm">服装、饰品、个人护理</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="服装" href="http://www.400301.com/template/37/0/list.htm">服装</a>
+                                        <a title="鞋帽箱包" href="http://www.400301.com/template/38/0/list.htm">鞋帽箱包</a>
+                                        <a title="户外用品" href="http://www.400301.com/template/39/0/list.htm">户外用品</a>
+                                        <a title="饰品装饰" href="http://www.400301.com/template/127/0/list.htm">饰品装饰</a>
+                                        <a title="美容护肤" href="http://www.400301.com/template/128/0/list.htm">美容护肤</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_04">
+                                <a title="数码、家具、家居百货" href="http://www.400301.com/template/28/0/list.htm">数码、家具、家居百货</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="数码、家具、家居百货" href="http://www.400301.com/template/28/0/list.htm">数码、家具、家居百货</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="手机数码" href="http://www.400301.com/template/108/0/list.htm">手机数码</a>
+                                        <a title="电脑" href="http://www.400301.com/template/109/0/list.htm">电脑</a>
+                                        <a title="电器" href="http://www.400301.com/template/110/0/list.htm">电器</a>
+                                        <a title="家私家具" href="http://www.400301.com/template/111/0/list.htm">家私家具</a>
+                                        <a title="家居家纺" href="http://www.400301.com/template/112/0/list.htm">家居家纺</a>
+                                        <a title="日用百货" href="http://www.400301.com/template/113/0/list.htm">日用百货</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_05" style="margin-left: 0px;">
+                                <a title="食品、茶饮、养生保健" href="http://www.400301.com/template/29/0/list.htm">食品、茶饮、养生保健</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px; display: none;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="食品、茶饮、养生保健" href="http://www.400301.com/template/29/0/list.htm">食品、茶饮、养生保健</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="食品饮料" href="http://www.400301.com/template/104/0/list.htm">食品饮料</a>
+                                        <a title="蔬果" href="http://www.400301.com/template/105/0/list.htm">蔬果</a>
+                                        <a title="茶叶茶具" href="http://www.400301.com/template/106/0/list.htm">茶叶茶具</a>
+                                        <a title="酒类" href="http://www.400301.com/template/107/0/list.htm">酒类</a>
+                                        <a title="养生保健" href="http://www.400301.com/template/134/0/list.htm">养生保健</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_06" style="margin-left: 0px;">
+                                <a title="礼品、玩具、小商品" href="http://www.400301.com/template/30/0/list.htm">礼品、玩具、小商品</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px; display: none;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="礼品、玩具、小商品" href="http://www.400301.com/template/30/0/list.htm">礼品、玩具、小商品</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="礼品" href="http://www.400301.com/template/72/0/list.htm">礼品</a>
+                                        <a title="玩具乐器" href="http://www.400301.com/template/73/0/list.htm">玩具乐器</a>
+                                        <a title="文具" href="http://www.400301.com/template/74/0/list.htm">文具</a>
+                                        <a title="小商品" href="http://www.400301.com/template/133/0/list.htm">小商品</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_07" style="margin-left: 0px;">
+                                <a title="婚庆、摄影、生活服务" href="http://www.400301.com/template/31/0/list.htm">婚庆、摄影、生活服务</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px; display: none;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="婚庆、摄影、生活服务" href="http://www.400301.com/template/31/0/list.htm">婚庆、摄影、生活服务</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="鲜花绿植" href="http://www.400301.com/template/69/0/list.htm">鲜花绿植</a>
+                                        <a title="婚庆" href="http://www.400301.com/template/70/0/list.htm">婚庆</a>
+                                        <a title="摄影" href="http://www.400301.com/template/71/0/list.htm">摄影</a>
+                                        <a title="宠物" href="http://www.400301.com/template/102/0/list.htm">宠物</a>
+                                        <a title="装修装潢" href="http://www.400301.com/template/103/0/list.htm">装修装潢</a>
+                                        <a title="生活服务" href="http://www.400301.com/template/135/0/list.htm">生活服务</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_08" style="margin-left: 0px;">
+                                <a title="餐饮、酒店、旅游服务" href="http://www.400301.com/template/32/0/list.htm">餐饮、酒店、旅游服务</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px; display: none;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="餐饮、酒店、旅游服务" href="http://www.400301.com/template/32/0/list.htm">餐饮、酒店、旅游服务</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="餐饮美食" href="http://www.400301.com/template/66/0/list.htm">餐饮美食</a>
+                                        <a title="酒店会所" href="http://www.400301.com/template/67/0/list.htm">酒店会所</a>
+                                        <a title="旅游服务" href="http://www.400301.com/template/68/0/list.htm">旅游服务</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_09" style="margin-left: 0px;">
+                                <a title="金融、物流、工商服务" href="http://www.400301.com/template/33/0/list.htm">金融、物流、工商服务</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px; display: none;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="金融、物流、工商服务" href="http://www.400301.com/template/33/0/list.htm">金融、物流、工商服务</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="金融保险" href="http://www.400301.com/template/63/0/list.htm">金融保险</a>
+                                        <a title="贸易" href="http://www.400301.com/template/64/0/list.htm">贸易</a>
+                                        <a title="物流" href="http://www.400301.com/template/65/0/list.htm">物流</a>
+                                        <a title="房地产" href="http://www.400301.com/template/98/0/list.htm">房地产</a>
+                                        <a title="工商服务" href="http://www.400301.com/template/99/0/list.htm">工商服务</a>
+                                        <a title="人力资源" href="http://www.400301.com/template/100/0/list.htm">人力资源</a>
+                                        <a title="法律服务" href="http://www.400301.com/template/101/0/list.htm">法律服务</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_10">
+                                <a title="文化、广告、设计服务" href="http://www.400301.com/template/34/0/list.htm">文化、广告、设计服务</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="文化、广告、设计服务" href="http://www.400301.com/template/34/0/list.htm">文化、广告、设计服务</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="文化传媒" href="http://www.400301.com/template/93/0/list.htm">文化传媒</a>
+                                        <a title="广告" href="http://www.400301.com/template/94/0/list.htm">广告</a>
+                                        <a title="印刷包装" href="http://www.400301.com/template/95/0/list.htm">印刷包装</a>
+                                        <a title="展览设计" href="http://www.400301.com/template/96/0/list.htm">展览设计</a>
+                                        <a title="园林设计" href="http://www.400301.com/template/97/0/list.htm">园林设计</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_11">
+                                <a title="教育、政府、机构组织" href="http://www.400301.com/template/35/0/list.htm">教育、政府、机构组织</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="教育、政府、机构组织" href="http://www.400301.com/template/35/0/list.htm">教育、政府、机构组织</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="学校" href="http://www.400301.com/template/88/0/list.htm">学校</a>
+                                        <a title="教育培训" href="http://www.400301.com/template/89/0/list.htm">教育培训</a>
+                                        <a title="政府" href="http://www.400301.com/template/90/0/list.htm">政府</a>
+                                        <a title="机构组织" href="http://www.400301.com/template/91/0/list.htm">机构组织</a>
+                                        <a title="医院/制药" href="http://www.400301.com/template/92/0/list.htm">医院/制药</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_12">
+                                <a title="IT、商城、行业门户" href="http://www.400301.com/template/36/0/list.htm">IT、商城、行业门户</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="IT、商城、行业门户" href="http://www.400301.com/template/36/0/list.htm">IT、商城、行业门户</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="IT" href="http://www.400301.com/template/85/0/list.htm">IT</a>
+                                        <a title="在线商城" href="http://www.400301.com/template/86/0/list.htm">在线商城</a>
+                                        <a title="行业门户" href="http://www.400301.com/template/87/0/list.htm">行业门户</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                        <div class="side_list">
+                            <h3 class="dao_13">
+                                <a title="外贸、英文、国际服务"
+                                   href="http://www.400301.com/template/129/0/list.htm">外贸、英文、国际服务</a>
+                            </h3>
+
+                            <div class="side_list_con" style="width: 240px;">
+                                <dl>
+                                    <dt class="dt666">
+                                        <a title="外贸、英文、国际服务" href="http://www.400301.com/template/129/0/list.htm">外贸、英文、国际服务</a>
+                                    </dt>
+                                    <dd class="ddd">
+                                        <a title="外贸" href="http://www.400301.com/template/130/0/list.htm">外贸</a>
+                                        <a title="英文" href="http://www.400301.com/template/131/0/list.htm">英文</a>
+                                        <a title="其他语言" href="http://www.400301.com/template/132/0/list.htm">其他语言</a>
+
+                                    </dd>
+                                </dl>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="top_3_right">
+                    <div class="menu">
+                        <ul>
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/" title="首页">首页</a></span>
+                            </li>
+
+                            <li class="menu_down" style="position: static;">
+                                <span>
+                                    <a href="http://www.400301.com/template.htm" title="网站建设">网站建设</a></span>
+
+                                <div class="menu_down_con">
+                                    <div class="menu_side">
+                                        <dl>
+                                            <dd class="meun_a">
+                                                <a title="建站必读"
+                                                   href="http://www.400301.com/News/detail/164.htm">建站必读</a></dd>
+                                            <dd class="meun_b">
+                                                <a title="快速建站" href="http://www.400301.com/template.htm">快速建站</a></dd>
+                                            <dd class="meun_d">
+                                                <a title="仿制网站" href="http://www.400301.com/Custom/index.htm">仿制网站</a>
+                                            </dd>
+                                            <dd class="meun_e">
+                                                <a title="定制网站" href="http://www.400301.com/Custom/index.htm">定制网站</a>
+                                            </dd>
+                                            <dd class="meun_c">
+                                                <a target="_top" title="手机网站"
+                                                   href="http://www.400301.com/mobile/index.htm">手机网站</a></dd>
+                                        </dl>
+                                    </div>
+                                </div>
+
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/Package/index.htm" title="建站价格">建站价格</a></span>
+
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/domain/i.htm" target="_top"
+                                       title="查询域名">查询域名</a></span>
+
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/Seo.htm" title="网站推广">网站推广</a></span>
+
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/400tel.htm" title="送400电话">送400电话</a></span>
+
+                            </li>
+
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/Agent/index.htm" target="_top" title="代理加盟">代理加盟</a></span>
+
+                                <img class="hot" src="hot.gif"></li>
+
+                            <li>
+                                <span>
+                                    <a href="http://www.400301.com/Advantage/index.htm" target="_top"
+                                       title="腾云优势">腾云优势</a></span>
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--head头部结束-->
+</body>
+</html>
